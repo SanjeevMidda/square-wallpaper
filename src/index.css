@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+.square:hover {
+  cursor: none;
+}
